@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libcsvWriter.a"
+  "libCSVWriter.a"
 )

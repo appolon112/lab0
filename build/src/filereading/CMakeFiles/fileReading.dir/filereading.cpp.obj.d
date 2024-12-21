@@ -1,6 +1,6 @@
-src/filereading/CMakeFiles/fileReading.dir/filereading.cpp.obj: \
- C:\programming_C++\lab0\lab0b\src\filereading\filereading.cpp \
- C:\programming_C++\lab0\lab0b\src\filereading\filereading.h \
+src/filereading/CMakeFiles/FileReading.dir/FileReading.cpp.obj: \
+ C:\programming_C++\lab0\lab0b\src\FileReading\FileReading.cpp \
+ C:\programming_C++\lab0\lab0b\src\FileReading\filereading.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

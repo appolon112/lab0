@@ -1,4 +1,4 @@
-# Install script for directory: C:/programming_C++/lab0/lab0b/src/csvwriter
+# Install script for directory: C:/programming_C++/lab0/lab0b/src/CSVWriter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -92,11 +92,11 @@ clean: src/wordcounter/clean
 # Directory level rules for directory src/csvwriter
 
 # Recursive "all" directory target.
-src/csvwriter/all: src/csvwriter/CMakeFiles/csvWriter.dir/all
+src/csvwriter/all: src/csvwriter/CMakeFiles/CSVWriter.dir/all
 .PHONY : src/csvwriter/all
 
 # Recursive "codegen" directory target.
-src/csvwriter/codegen: src/csvwriter/CMakeFiles/csvWriter.dir/codegen
+src/csvwriter/codegen: src/csvwriter/CMakeFiles/CSVWriter.dir/codegen
 .PHONY : src/csvwriter/codegen
 
 # Recursive "preinstall" directory target.
@@ -104,18 +104,18 @@ src/csvwriter/preinstall:
 .PHONY : src/csvwriter/preinstall
 
 # Recursive "clean" directory target.
-src/csvwriter/clean: src/csvwriter/CMakeFiles/csvWriter.dir/clean
+src/csvwriter/clean: src/csvwriter/CMakeFiles/CSVWriter.dir/clean
 .PHONY : src/csvwriter/clean
 
 #=============================================================================
 # Directory level rules for directory src/filereading
 
 # Recursive "all" directory target.
-src/filereading/all: src/filereading/CMakeFiles/fileReading.dir/all
+src/filereading/all: src/filereading/CMakeFiles/FileReading.dir/all
 .PHONY : src/filereading/all
 
 # Recursive "codegen" directory target.
-src/filereading/codegen: src/filereading/CMakeFiles/fileReading.dir/codegen
+src/filereading/codegen: src/filereading/CMakeFiles/FileReading.dir/codegen
 .PHONY : src/filereading/codegen
 
 # Recursive "preinstall" directory target.
@@ -123,18 +123,18 @@ src/filereading/preinstall:
 .PHONY : src/filereading/preinstall
 
 # Recursive "clean" directory target.
-src/filereading/clean: src/filereading/CMakeFiles/fileReading.dir/clean
+src/filereading/clean: src/filereading/CMakeFiles/FileReading.dir/clean
 .PHONY : src/filereading/clean
 
 #=============================================================================
 # Directory level rules for directory src/wordcounter
 
 # Recursive "all" directory target.
-src/wordcounter/all: src/wordcounter/CMakeFiles/wordCounter.dir/all
+src/wordcounter/all: src/wordcounter/CMakeFiles/WordCounter.dir/all
 .PHONY : src/wordcounter/all
 
 # Recursive "codegen" directory target.
-src/wordcounter/codegen: src/wordcounter/CMakeFiles/wordCounter.dir/codegen
+src/wordcounter/codegen: src/wordcounter/CMakeFiles/WordCounter.dir/codegen
 .PHONY : src/wordcounter/codegen
 
 # Recursive "preinstall" directory target.
@@ -142,19 +142,19 @@ src/wordcounter/preinstall:
 .PHONY : src/wordcounter/preinstall
 
 # Recursive "clean" directory target.
-src/wordcounter/clean: src/wordcounter/CMakeFiles/wordCounter.dir/clean
+src/wordcounter/clean: src/wordcounter/CMakeFiles/WordCounter.dir/clean
 .PHONY : src/wordcounter/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/lab0.dir
 
 # All Build rule for target.
-CMakeFiles/lab0.dir/all: src/csvwriter/CMakeFiles/csvWriter.dir/all
-CMakeFiles/lab0.dir/all: src/filereading/CMakeFiles/fileReading.dir/all
-CMakeFiles/lab0.dir/all: src/wordcounter/CMakeFiles/wordCounter.dir/all
+CMakeFiles/lab0.dir/all: src/csvwriter/CMakeFiles/CSVWriter.dir/all
+CMakeFiles/lab0.dir/all: src/filereading/CMakeFiles/FileReading.dir/all
+CMakeFiles/lab0.dir/all: src/wordcounter/CMakeFiles/WordCounter.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab0.dir\build.make CMakeFiles/lab0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab0.dir\build.make CMakeFiles/lab0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=5,6 "Built target lab0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=7,8 "Built target lab0"
 .PHONY : CMakeFiles/lab0.dir/all
 
 # Build rule for subdir invocation for target.
@@ -179,97 +179,97 @@ CMakeFiles/lab0.dir/clean:
 .PHONY : CMakeFiles/lab0.dir/clean
 
 #=============================================================================
-# Target rules for target src/csvwriter/CMakeFiles/csvWriter.dir
+# Target rules for target src/csvwriter/CMakeFiles/CSVWriter.dir
 
 # All Build rule for target.
-src/csvwriter/CMakeFiles/csvWriter.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=1,2 "Built target csvWriter"
-.PHONY : src/csvwriter/CMakeFiles/csvWriter.dir/all
+src/csvwriter/CMakeFiles/CSVWriter.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=1,2 "Built target CSVWriter"
+.PHONY : src/csvwriter/CMakeFiles/CSVWriter.dir/all
 
 # Build rule for subdir invocation for target.
-src/csvwriter/CMakeFiles/csvWriter.dir/rule: cmake_check_build_system
+src/csvwriter/CMakeFiles/CSVWriter.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\programming_C++\lab0\lab0b\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/csvwriter/CMakeFiles/csvWriter.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/csvwriter/CMakeFiles/CSVWriter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\programming_C++\lab0\lab0b\build\CMakeFiles 0
-.PHONY : src/csvwriter/CMakeFiles/csvWriter.dir/rule
+.PHONY : src/csvwriter/CMakeFiles/CSVWriter.dir/rule
 
 # Convenience name for target.
-csvWriter: src/csvwriter/CMakeFiles/csvWriter.dir/rule
-.PHONY : csvWriter
+CSVWriter: src/csvwriter/CMakeFiles/CSVWriter.dir/rule
+.PHONY : CSVWriter
 
 # codegen rule for target.
-src/csvwriter/CMakeFiles/csvWriter.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/codegen
-.PHONY : src/csvwriter/CMakeFiles/csvWriter.dir/codegen
+src/csvwriter/CMakeFiles/CSVWriter.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/codegen
+.PHONY : src/csvwriter/CMakeFiles/CSVWriter.dir/codegen
 
 # clean rule for target.
-src/csvwriter/CMakeFiles/csvWriter.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/clean
-.PHONY : src/csvwriter/CMakeFiles/csvWriter.dir/clean
+src/csvwriter/CMakeFiles/CSVWriter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/clean
+.PHONY : src/csvwriter/CMakeFiles/CSVWriter.dir/clean
 
 #=============================================================================
-# Target rules for target src/filereading/CMakeFiles/fileReading.dir
+# Target rules for target src/filereading/CMakeFiles/FileReading.dir
 
 # All Build rule for target.
-src/filereading/CMakeFiles/fileReading.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=3,4 "Built target fileReading"
-.PHONY : src/filereading/CMakeFiles/fileReading.dir/all
+src/filereading/CMakeFiles/FileReading.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=3,4 "Built target FileReading"
+.PHONY : src/filereading/CMakeFiles/FileReading.dir/all
 
 # Build rule for subdir invocation for target.
-src/filereading/CMakeFiles/fileReading.dir/rule: cmake_check_build_system
+src/filereading/CMakeFiles/FileReading.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\programming_C++\lab0\lab0b\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/filereading/CMakeFiles/fileReading.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/filereading/CMakeFiles/FileReading.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\programming_C++\lab0\lab0b\build\CMakeFiles 0
-.PHONY : src/filereading/CMakeFiles/fileReading.dir/rule
+.PHONY : src/filereading/CMakeFiles/FileReading.dir/rule
 
 # Convenience name for target.
-fileReading: src/filereading/CMakeFiles/fileReading.dir/rule
-.PHONY : fileReading
+FileReading: src/filereading/CMakeFiles/FileReading.dir/rule
+.PHONY : FileReading
 
 # codegen rule for target.
-src/filereading/CMakeFiles/fileReading.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/codegen
-.PHONY : src/filereading/CMakeFiles/fileReading.dir/codegen
+src/filereading/CMakeFiles/FileReading.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/codegen
+.PHONY : src/filereading/CMakeFiles/FileReading.dir/codegen
 
 # clean rule for target.
-src/filereading/CMakeFiles/fileReading.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/clean
-.PHONY : src/filereading/CMakeFiles/fileReading.dir/clean
+src/filereading/CMakeFiles/FileReading.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/clean
+.PHONY : src/filereading/CMakeFiles/FileReading.dir/clean
 
 #=============================================================================
-# Target rules for target src/wordcounter/CMakeFiles/wordCounter.dir
+# Target rules for target src/wordcounter/CMakeFiles/WordCounter.dir
 
 # All Build rule for target.
-src/wordcounter/CMakeFiles/wordCounter.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=7,8 "Built target wordCounter"
-.PHONY : src/wordcounter/CMakeFiles/wordCounter.dir/all
+src/wordcounter/CMakeFiles/WordCounter.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\programming_C++\lab0\lab0b\build\CMakeFiles --progress-num=5,6 "Built target WordCounter"
+.PHONY : src/wordcounter/CMakeFiles/WordCounter.dir/all
 
 # Build rule for subdir invocation for target.
-src/wordcounter/CMakeFiles/wordCounter.dir/rule: cmake_check_build_system
+src/wordcounter/CMakeFiles/WordCounter.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\programming_C++\lab0\lab0b\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/wordcounter/CMakeFiles/wordCounter.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/wordcounter/CMakeFiles/WordCounter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\programming_C++\lab0\lab0b\build\CMakeFiles 0
-.PHONY : src/wordcounter/CMakeFiles/wordCounter.dir/rule
+.PHONY : src/wordcounter/CMakeFiles/WordCounter.dir/rule
 
 # Convenience name for target.
-wordCounter: src/wordcounter/CMakeFiles/wordCounter.dir/rule
-.PHONY : wordCounter
+WordCounter: src/wordcounter/CMakeFiles/WordCounter.dir/rule
+.PHONY : WordCounter
 
 # codegen rule for target.
-src/wordcounter/CMakeFiles/wordCounter.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/codegen
-.PHONY : src/wordcounter/CMakeFiles/wordCounter.dir/codegen
+src/wordcounter/CMakeFiles/WordCounter.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/codegen
+.PHONY : src/wordcounter/CMakeFiles/WordCounter.dir/codegen
 
 # clean rule for target.
-src/wordcounter/CMakeFiles/wordCounter.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/clean
-.PHONY : src/wordcounter/CMakeFiles/wordCounter.dir/clean
+src/wordcounter/CMakeFiles/WordCounter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/clean
+.PHONY : src/wordcounter/CMakeFiles/WordCounter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

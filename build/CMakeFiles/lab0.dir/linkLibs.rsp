@@ -1,1 +1,1 @@
- src/csvwriter/libcsvWriter.a src/filereading/libfileReading.a src/wordcounter/libwordCounter.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ src/csvwriter/libCSVWriter.a src/filereading/libFileReading.a src/wordcounter/libWordCounter.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

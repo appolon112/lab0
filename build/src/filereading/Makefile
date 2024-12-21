@@ -116,42 +116,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/filereading/CMakeFiles/fileReading.dir/rule:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/filereading/CMakeFiles/fileReading.dir/rule
-.PHONY : src/filereading/CMakeFiles/fileReading.dir/rule
+src/filereading/CMakeFiles/FileReading.dir/rule:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/filereading/CMakeFiles/FileReading.dir/rule
+.PHONY : src/filereading/CMakeFiles/FileReading.dir/rule
 
 # Convenience name for target.
-fileReading: src/filereading/CMakeFiles/fileReading.dir/rule
-.PHONY : fileReading
+FileReading: src/filereading/CMakeFiles/FileReading.dir/rule
+.PHONY : FileReading
 
 # fast build rule for target.
-fileReading/fast:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/build
-.PHONY : fileReading/fast
+FileReading/fast:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/build
+.PHONY : FileReading/fast
 
-filereading.obj: filereading.cpp.obj
-.PHONY : filereading.obj
+FileReading.obj: FileReading.cpp.obj
+.PHONY : FileReading.obj
 
 # target to build an object file
-filereading.cpp.obj:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/filereading.cpp.obj
-.PHONY : filereading.cpp.obj
+FileReading.cpp.obj:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/FileReading.cpp.obj
+.PHONY : FileReading.cpp.obj
 
-filereading.i: filereading.cpp.i
-.PHONY : filereading.i
+FileReading.i: FileReading.cpp.i
+.PHONY : FileReading.i
 
 # target to preprocess a source file
-filereading.cpp.i:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/filereading.cpp.i
-.PHONY : filereading.cpp.i
+FileReading.cpp.i:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/FileReading.cpp.i
+.PHONY : FileReading.cpp.i
 
-filereading.s: filereading.cpp.s
-.PHONY : filereading.s
+FileReading.s: FileReading.cpp.s
+.PHONY : FileReading.s
 
 # target to generate assembly for a file
-filereading.cpp.s:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/filereading.cpp.s
-.PHONY : filereading.cpp.s
+FileReading.cpp.s:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/FileReading.cpp.s
+.PHONY : FileReading.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... fileReading
-	@echo ... filereading.obj
-	@echo ... filereading.i
-	@echo ... filereading.s
+	@echo ... FileReading
+	@echo ... FileReading.obj
+	@echo ... FileReading.i
+	@echo ... FileReading.s
 .PHONY : help
 
 

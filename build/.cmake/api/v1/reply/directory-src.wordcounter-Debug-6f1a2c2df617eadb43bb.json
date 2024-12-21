@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "src/filereading",
-		"source" : "src/filereading"
+		"build" : "src/wordcounter",
+		"source" : "src/WordCounter"
 	}
 }

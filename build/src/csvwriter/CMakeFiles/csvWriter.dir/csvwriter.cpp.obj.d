@@ -1,6 +1,6 @@
-src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj: \
- C:\programming_C++\lab0\lab0b\src\csvwriter\csvwriter.cpp \
- C:\programming_C++\lab0\lab0b\src\csvwriter\csvwriter.h \
+src/csvwriter/CMakeFiles/CSVWriter.dir/CSVWriter.cpp.obj: \
+ C:\programming_C++\lab0\lab0b\src\CSVWriter\CSVWriter.cpp \
+ C:\programming_C++\lab0\lab0b\src\CSVWriter\csvwriter.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

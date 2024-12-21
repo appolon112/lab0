@@ -1,2 +1,2 @@
-C:\mingw64\bin\ar.exe qc libfileReading.a CMakeFiles/fileReading.dir/filereading.cpp.obj
-C:\mingw64\bin\ranlib.exe libfileReading.a
+C:\mingw64\bin\ar.exe qc libFileReading.a CMakeFiles/FileReading.dir/FileReading.cpp.obj
+C:\mingw64\bin\ranlib.exe libFileReading.a

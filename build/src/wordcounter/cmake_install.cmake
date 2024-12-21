@@ -1,4 +1,4 @@
-# Install script for directory: C:/programming_C++/lab0/lab0b/src/wordcounter
+# Install script for directory: C:/programming_C++/lab0/lab0b/src/WordCounter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

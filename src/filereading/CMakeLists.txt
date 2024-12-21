@@ -1,2 +1,2 @@
-add_library(fileReading filereading.cpp)
-target_include_directories(fileReading PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+add_library(FileReading FileReading.cpp)
+target_include_directories(FileReading PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

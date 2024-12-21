@@ -116,42 +116,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/wordcounter/CMakeFiles/wordCounter.dir/rule:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/wordcounter/CMakeFiles/wordCounter.dir/rule
-.PHONY : src/wordcounter/CMakeFiles/wordCounter.dir/rule
+src/wordcounter/CMakeFiles/WordCounter.dir/rule:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/wordcounter/CMakeFiles/WordCounter.dir/rule
+.PHONY : src/wordcounter/CMakeFiles/WordCounter.dir/rule
 
 # Convenience name for target.
-wordCounter: src/wordcounter/CMakeFiles/wordCounter.dir/rule
-.PHONY : wordCounter
+WordCounter: src/wordcounter/CMakeFiles/WordCounter.dir/rule
+.PHONY : WordCounter
 
 # fast build rule for target.
-wordCounter/fast:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/build
-.PHONY : wordCounter/fast
+WordCounter/fast:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/build
+.PHONY : WordCounter/fast
 
-wordcounter.obj: wordcounter.cpp.obj
-.PHONY : wordcounter.obj
+WordCounter.obj: WordCounter.cpp.obj
+.PHONY : WordCounter.obj
 
 # target to build an object file
-wordcounter.cpp.obj:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj
-.PHONY : wordcounter.cpp.obj
+WordCounter.cpp.obj:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/WordCounter.cpp.obj
+.PHONY : WordCounter.cpp.obj
 
-wordcounter.i: wordcounter.cpp.i
-.PHONY : wordcounter.i
+WordCounter.i: WordCounter.cpp.i
+.PHONY : WordCounter.i
 
 # target to preprocess a source file
-wordcounter.cpp.i:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.i
-.PHONY : wordcounter.cpp.i
+WordCounter.cpp.i:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/WordCounter.cpp.i
+.PHONY : WordCounter.cpp.i
 
-wordcounter.s: wordcounter.cpp.s
-.PHONY : wordcounter.s
+WordCounter.s: WordCounter.cpp.s
+.PHONY : WordCounter.s
 
 # target to generate assembly for a file
-wordcounter.cpp.s:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.s
-.PHONY : wordcounter.cpp.s
+WordCounter.cpp.s:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/WordCounter.cpp.s
+.PHONY : WordCounter.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... wordCounter
-	@echo ... wordcounter.obj
-	@echo ... wordcounter.i
-	@echo ... wordcounter.s
+	@echo ... WordCounter
+	@echo ... WordCounter.obj
+	@echo ... WordCounter.i
+	@echo ... WordCounter.s
 .PHONY : help
 
 

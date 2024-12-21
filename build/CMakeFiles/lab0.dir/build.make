@@ -95,9 +95,9 @@ lab0_EXTERNAL_OBJECTS =
 
 lab0.exe: CMakeFiles/lab0.dir/src/main.cpp.obj
 lab0.exe: CMakeFiles/lab0.dir/build.make
-lab0.exe: src/csvwriter/libcsvWriter.a
-lab0.exe: src/filereading/libfileReading.a
-lab0.exe: src/wordcounter/libwordCounter.a
+lab0.exe: src/csvwriter/libCSVWriter.a
+lab0.exe: src/filereading/libFileReading.a
+lab0.exe: src/wordcounter/libWordCounter.a
 lab0.exe: CMakeFiles/lab0.dir/linkLibs.rsp
 lab0.exe: CMakeFiles/lab0.dir/objects1.rsp
 lab0.exe: CMakeFiles/lab0.dir/link.txt

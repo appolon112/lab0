@@ -206,13 +206,13 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake"
 		},
 		{
-			"path" : "src/csvwriter/CMakeLists.txt"
+			"path" : "src/CSVWriter/CMakeLists.txt"
 		},
 		{
-			"path" : "src/filereading/CMakeLists.txt"
+			"path" : "src/FileReading/CMakeLists.txt"
 		},
 		{
-			"path" : "src/wordcounter/CMakeLists.txt"
+			"path" : "src/WordCounter/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

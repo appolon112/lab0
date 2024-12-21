@@ -43,9 +43,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.31.2/CMakeSystem.cmake"
-  "C:/programming_C++/lab0/lab0b/src/csvwriter/CMakeLists.txt"
-  "C:/programming_C++/lab0/lab0b/src/filereading/CMakeLists.txt"
-  "C:/programming_C++/lab0/lab0b/src/wordcounter/CMakeLists.txt"
+  "C:/programming_C++/lab0/lab0b/src/CSVWriter/CMakeLists.txt"
+  "C:/programming_C++/lab0/lab0b/src/FileReading/CMakeLists.txt"
+  "C:/programming_C++/lab0/lab0b/src/WordCounter/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -65,7 +65,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lab0.dir/DependInfo.cmake"
-  "src/csvwriter/CMakeFiles/csvWriter.dir/DependInfo.cmake"
-  "src/filereading/CMakeFiles/fileReading.dir/DependInfo.cmake"
-  "src/wordcounter/CMakeFiles/wordCounter.dir/DependInfo.cmake"
+  "src/csvwriter/CMakeFiles/CSVWriter.dir/DependInfo.cmake"
+  "src/filereading/CMakeFiles/FileReading.dir/DependInfo.cmake"
+  "src/wordcounter/CMakeFiles/WordCounter.dir/DependInfo.cmake"
   )

@@ -116,42 +116,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/csvwriter/CMakeFiles/csvWriter.dir/rule:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/csvwriter/CMakeFiles/csvWriter.dir/rule
-.PHONY : src/csvwriter/CMakeFiles/csvWriter.dir/rule
+src/csvwriter/CMakeFiles/CSVWriter.dir/rule:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/csvwriter/CMakeFiles/CSVWriter.dir/rule
+.PHONY : src/csvwriter/CMakeFiles/CSVWriter.dir/rule
 
 # Convenience name for target.
-csvWriter: src/csvwriter/CMakeFiles/csvWriter.dir/rule
-.PHONY : csvWriter
+CSVWriter: src/csvwriter/CMakeFiles/CSVWriter.dir/rule
+.PHONY : CSVWriter
 
 # fast build rule for target.
-csvWriter/fast:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/build
-.PHONY : csvWriter/fast
+CSVWriter/fast:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/build
+.PHONY : CSVWriter/fast
 
-csvwriter.obj: csvwriter.cpp.obj
-.PHONY : csvwriter.obj
+CSVWriter.obj: CSVWriter.cpp.obj
+.PHONY : CSVWriter.obj
 
 # target to build an object file
-csvwriter.cpp.obj:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj
-.PHONY : csvwriter.cpp.obj
+CSVWriter.cpp.obj:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/CSVWriter.cpp.obj
+.PHONY : CSVWriter.cpp.obj
 
-csvwriter.i: csvwriter.cpp.i
-.PHONY : csvwriter.i
+CSVWriter.i: CSVWriter.cpp.i
+.PHONY : CSVWriter.i
 
 # target to preprocess a source file
-csvwriter.cpp.i:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.i
-.PHONY : csvwriter.cpp.i
+CSVWriter.cpp.i:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/CSVWriter.cpp.i
+.PHONY : CSVWriter.cpp.i
 
-csvwriter.s: csvwriter.cpp.s
-.PHONY : csvwriter.s
+CSVWriter.s: CSVWriter.cpp.s
+.PHONY : CSVWriter.s
 
 # target to generate assembly for a file
-csvwriter.cpp.s:
-	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.s
-.PHONY : csvwriter.cpp.s
+CSVWriter.cpp.s:
+	cd /d C:\programming_C++\lab0\lab0b\build && $(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/CSVWriter.cpp.s
+.PHONY : CSVWriter.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... csvWriter
-	@echo ... csvwriter.obj
-	@echo ... csvwriter.i
-	@echo ... csvwriter.s
+	@echo ... CSVWriter
+	@echo ... CSVWriter.obj
+	@echo ... CSVWriter.i
+	@echo ... CSVWriter.s
 .PHONY : help
 
 

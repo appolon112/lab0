@@ -21,19 +21,19 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "src/csvwriter",
-					"jsonFile" : "directory-src.csvwriter-Debug-1ba9ba3980b409ca6a69.json",
+					"jsonFile" : "directory-src.csvwriter-Debug-0592c17c72a308b5d129.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "src/csvwriter",
+					"source" : "src/CSVWriter",
 					"targetIndexes" : 
 					[
 						0
@@ -41,14 +41,14 @@
 				},
 				{
 					"build" : "src/filereading",
-					"jsonFile" : "directory-src.filereading-Debug-d58e9b9ed3eadb02d4fe.json",
+					"jsonFile" : "directory-src.filereading-Debug-6d9030549a83d4caba95.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "src/filereading",
+					"source" : "src/FileReading",
 					"targetIndexes" : 
 					[
 						1
@@ -56,17 +56,17 @@
 				},
 				{
 					"build" : "src/wordcounter",
-					"jsonFile" : "directory-src.wordcounter-Debug-f49ed95f584ded0e37cf.json",
+					"jsonFile" : "directory-src.wordcounter-Debug-6f1a2c2df617eadb43bb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "src/wordcounter",
+					"source" : "src/WordCounter",
 					"targetIndexes" : 
 					[
-						3
+						2
 					]
 				}
 			],
@@ -95,30 +95,30 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "csvWriter::@c9fc363795a0fdc4dc6f",
-					"jsonFile" : "target-csvWriter-Debug-ce8b7da388469837f646.json",
-					"name" : "csvWriter",
+					"id" : "CSVWriter::@c9fc363795a0fdc4dc6f",
+					"jsonFile" : "target-CSVWriter-Debug-91d1772b6fce23a604f0.json",
+					"name" : "CSVWriter",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "fileReading::@f78354738ef22fdcf81b",
-					"jsonFile" : "target-fileReading-Debug-feaa9d6f13537bf4d9be.json",
-					"name" : "fileReading",
+					"id" : "FileReading::@f78354738ef22fdcf81b",
+					"jsonFile" : "target-FileReading-Debug-881f6aa36a11b72ca147.json",
+					"name" : "FileReading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "WordCounter::@6bf8d468af67fd5fd309",
+					"jsonFile" : "target-WordCounter-Debug-57a475a883265731cf8c.json",
+					"name" : "WordCounter",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "lab0::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab0-Debug-59e9a8845f5b64210070.json",
+					"jsonFile" : "target-lab0-Debug-022446b127d045887a87.json",
 					"name" : "lab0",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 3,
-					"id" : "wordCounter::@6bf8d468af67fd5fd309",
-					"jsonFile" : "target-wordCounter-Debug-f1bad7de36e786addb3a.json",
-					"name" : "wordCounter",
 					"projectIndex" : 0
 				}
 			]

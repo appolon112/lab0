@@ -52,15 +52,15 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/programming_C++/lab0/lab0b/src/csvwriter"
+					"path" : "C:/programming_C++/lab0/lab0b/src/CSVWriter"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/programming_C++/lab0/lab0b/src/filereading"
+					"path" : "C:/programming_C++/lab0/lab0b/src/FileReading"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/programming_C++/lab0/lab0b/src/wordcounter"
+					"path" : "C:/programming_C++/lab0/lab0b/src/WordCounter"
 				}
 			],
 			"language" : "CXX",
@@ -82,15 +82,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "csvWriter::@c9fc363795a0fdc4dc6f"
+			"id" : "CSVWriter::@c9fc363795a0fdc4dc6f"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "fileReading::@f78354738ef22fdcf81b"
+			"id" : "FileReading::@f78354738ef22fdcf81b"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "wordCounter::@6bf8d468af67fd5fd309"
+			"id" : "WordCounter::@6bf8d468af67fd5fd309"
 		}
 	],
 	"id" : "lab0::@6890427a1f51a3e7e1df",
@@ -108,17 +108,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src\\csvwriter\\libcsvWriter.a",
+				"fragment" : "src\\csvwriter\\libCSVWriter.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src\\filereading\\libfileReading.a",
+				"fragment" : "src\\filereading\\libFileReading.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src\\wordcounter\\libwordCounter.a",
+				"fragment" : "src\\wordcounter\\libWordCounter.a",
 				"role" : "libraries"
 			},
 			{

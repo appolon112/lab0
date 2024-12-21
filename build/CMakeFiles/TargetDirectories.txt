@@ -1,12 +1,12 @@
 C:/programming_C++/lab0/lab0b/build/CMakeFiles/lab0.dir
 C:/programming_C++/lab0/lab0b/build/CMakeFiles/edit_cache.dir
 C:/programming_C++/lab0/lab0b/build/CMakeFiles/rebuild_cache.dir
-C:/programming_C++/lab0/lab0b/build/src/csvwriter/CMakeFiles/csvWriter.dir
+C:/programming_C++/lab0/lab0b/build/src/csvwriter/CMakeFiles/CSVWriter.dir
 C:/programming_C++/lab0/lab0b/build/src/csvwriter/CMakeFiles/edit_cache.dir
 C:/programming_C++/lab0/lab0b/build/src/csvwriter/CMakeFiles/rebuild_cache.dir
-C:/programming_C++/lab0/lab0b/build/src/filereading/CMakeFiles/fileReading.dir
+C:/programming_C++/lab0/lab0b/build/src/filereading/CMakeFiles/FileReading.dir
 C:/programming_C++/lab0/lab0b/build/src/filereading/CMakeFiles/edit_cache.dir
 C:/programming_C++/lab0/lab0b/build/src/filereading/CMakeFiles/rebuild_cache.dir
-C:/programming_C++/lab0/lab0b/build/src/wordcounter/CMakeFiles/wordCounter.dir
+C:/programming_C++/lab0/lab0b/build/src/wordcounter/CMakeFiles/WordCounter.dir
 C:/programming_C++/lab0/lab0b/build/src/wordcounter/CMakeFiles/edit_cache.dir
 C:/programming_C++/lab0/lab0b/build/src/wordcounter/CMakeFiles/rebuild_cache.dir

@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/csvWriter.dir/csvwriter.cpp.obj"
-  "CMakeFiles/csvWriter.dir/csvwriter.cpp.obj.d"
-  "libcsvWriter.a"
-  "libcsvWriter.pdb"
+  "CMakeFiles/CSVWriter.dir/CSVWriter.cpp.obj"
+  "CMakeFiles/CSVWriter.dir/CSVWriter.cpp.obj.d"
+  "libCSVWriter.a"
+  "libCSVWriter.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/csvWriter.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/CSVWriter.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

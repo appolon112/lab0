@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/programming_C++/lab0/lab0b/src/csvwriter/csvwriter.cpp" "src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj" "gcc" "src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj.d"
+  "C:/programming_C++/lab0/lab0b/src/CSVWriter/CSVWriter.cpp" "src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj" "gcc" "src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

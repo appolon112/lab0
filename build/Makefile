@@ -129,43 +129,43 @@ lab0/fast:
 .PHONY : lab0/fast
 
 #=============================================================================
-# Target rules for targets named csvWriter
+# Target rules for targets named CSVWriter
 
 # Build rule for target.
-csvWriter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 csvWriter
-.PHONY : csvWriter
+CSVWriter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CSVWriter
+.PHONY : CSVWriter
 
 # fast build rule for target.
-csvWriter/fast:
-	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\csvWriter.dir\build.make src/csvwriter/CMakeFiles/csvWriter.dir/build
-.PHONY : csvWriter/fast
+CSVWriter/fast:
+	$(MAKE) $(MAKESILENT) -f src\csvwriter\CMakeFiles\CSVWriter.dir\build.make src/csvwriter/CMakeFiles/CSVWriter.dir/build
+.PHONY : CSVWriter/fast
 
 #=============================================================================
-# Target rules for targets named fileReading
+# Target rules for targets named FileReading
 
 # Build rule for target.
-fileReading: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fileReading
-.PHONY : fileReading
+FileReading: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FileReading
+.PHONY : FileReading
 
 # fast build rule for target.
-fileReading/fast:
-	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\fileReading.dir\build.make src/filereading/CMakeFiles/fileReading.dir/build
-.PHONY : fileReading/fast
+FileReading/fast:
+	$(MAKE) $(MAKESILENT) -f src\filereading\CMakeFiles\FileReading.dir\build.make src/filereading/CMakeFiles/FileReading.dir/build
+.PHONY : FileReading/fast
 
 #=============================================================================
-# Target rules for targets named wordCounter
+# Target rules for targets named WordCounter
 
 # Build rule for target.
-wordCounter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 wordCounter
-.PHONY : wordCounter
+WordCounter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WordCounter
+.PHONY : WordCounter
 
 # fast build rule for target.
-wordCounter/fast:
-	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\wordCounter.dir\build.make src/wordcounter/CMakeFiles/wordCounter.dir/build
-.PHONY : wordCounter/fast
+WordCounter/fast:
+	$(MAKE) $(MAKESILENT) -f src\wordcounter\CMakeFiles\WordCounter.dir\build.make src/wordcounter/CMakeFiles/WordCounter.dir/build
+.PHONY : WordCounter/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -199,10 +199,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... csvWriter
-	@echo ... fileReading
+	@echo ... CSVWriter
+	@echo ... FileReading
+	@echo ... WordCounter
 	@echo ... lab0
-	@echo ... wordCounter
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

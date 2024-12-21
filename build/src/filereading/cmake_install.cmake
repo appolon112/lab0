@@ -1,4 +1,4 @@
-# Install script for directory: C:/programming_C++/lab0/lab0b/src/filereading
+# Install script for directory: C:/programming_C++/lab0/lab0b/src/FileReading
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

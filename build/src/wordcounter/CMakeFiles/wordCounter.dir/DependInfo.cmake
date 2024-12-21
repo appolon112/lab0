@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/programming_C++/lab0/lab0b/src/wordcounter/wordcounter.cpp" "src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj" "gcc" "src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj.d"
+  "C:/programming_C++/lab0/lab0b/src/WordCounter/WordCounter.cpp" "src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj" "gcc" "src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

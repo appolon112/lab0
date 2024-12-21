@@ -1,6 +1,6 @@
-src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj: \
- C:\programming_C++\lab0\lab0b\src\wordcounter\wordcounter.cpp \
- C:\programming_C++\lab0\lab0b\src\wordcounter\wordcounter.h \
+src/wordcounter/CMakeFiles/WordCounter.dir/WordCounter.cpp.obj: \
+ C:\programming_C++\lab0\lab0b\src\WordCounter\WordCounter.cpp \
+ C:\programming_C++\lab0\lab0b\src\WordCounter\wordcounter.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

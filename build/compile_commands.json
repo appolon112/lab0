@@ -7,20 +7,20 @@
 },
 {
   "directory": "C:/programming_C++/lab0/lab0b/build/src/csvwriter",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/csvWriter.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\csvWriter.dir\\csvwriter.cpp.obj -c C:\\programming_C++\\lab0\\lab0b\\src\\csvwriter\\csvwriter.cpp",
-  "file": "C:/programming_C++/lab0/lab0b/src/csvwriter/csvwriter.cpp",
-  "output": "src/csvwriter/CMakeFiles/csvWriter.dir/csvwriter.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/CSVWriter.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CSVWriter.dir\\CSVWriter.cpp.obj -c C:\\programming_C++\\lab0\\lab0b\\src\\CSVWriter\\CSVWriter.cpp",
+  "file": "C:/programming_C++/lab0/lab0b/src/CSVWriter/CSVWriter.cpp",
+  "output": "src/csvwriter/CMakeFiles/CSVWriter.dir/CSVWriter.cpp.obj"
 },
 {
   "directory": "C:/programming_C++/lab0/lab0b/build/src/filereading",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/fileReading.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\fileReading.dir\\filereading.cpp.obj -c C:\\programming_C++\\lab0\\lab0b\\src\\filereading\\filereading.cpp",
-  "file": "C:/programming_C++/lab0/lab0b/src/filereading/filereading.cpp",
-  "output": "src/filereading/CMakeFiles/fileReading.dir/filereading.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FileReading.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FileReading.dir\\FileReading.cpp.obj -c C:\\programming_C++\\lab0\\lab0b\\src\\FileReading\\FileReading.cpp",
+  "file": "C:/programming_C++/lab0/lab0b/src/FileReading/FileReading.cpp",
+  "output": "src/filereading/CMakeFiles/FileReading.dir/FileReading.cpp.obj"
 },
 {
   "directory": "C:/programming_C++/lab0/lab0b/build/src/wordcounter",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/wordCounter.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wordCounter.dir\\wordcounter.cpp.obj -c C:\\programming_C++\\lab0\\lab0b\\src\\wordcounter\\wordcounter.cpp",
-  "file": "C:/programming_C++/lab0/lab0b/src/wordcounter/wordcounter.cpp",
-  "output": "src/wordcounter/CMakeFiles/wordCounter.dir/wordcounter.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/WordCounter.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\WordCounter.dir\\WordCounter.cpp.obj -c C:\\programming_C++\\lab0\\lab0b\\src\\WordCounter\\WordCounter.cpp",
+  "file": "C:/programming_C++/lab0/lab0b/src/WordCounter/WordCounter.cpp",
+  "output": "src/wordcounter/CMakeFiles/WordCounter.dir/WordCounter.cpp.obj"
 }
 ]

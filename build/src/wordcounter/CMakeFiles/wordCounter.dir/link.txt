@@ -1,2 +1,2 @@
-C:\mingw64\bin\ar.exe qc libwordCounter.a CMakeFiles/wordCounter.dir/wordcounter.cpp.obj
-C:\mingw64\bin\ranlib.exe libwordCounter.a
+C:\mingw64\bin\ar.exe qc libWordCounter.a CMakeFiles/WordCounter.dir/WordCounter.cpp.obj
+C:\mingw64\bin\ranlib.exe libWordCounter.a

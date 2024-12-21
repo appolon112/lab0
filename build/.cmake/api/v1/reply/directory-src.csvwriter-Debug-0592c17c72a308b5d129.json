@@ -9,6 +9,6 @@
 	"paths" : 
 	{
 		"build" : "src/csvwriter",
-		"source" : "src/csvwriter"
+		"source" : "src/CSVWriter"
 	}
 }
