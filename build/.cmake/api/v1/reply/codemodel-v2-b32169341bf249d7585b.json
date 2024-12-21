@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/csvwriter",
+					"jsonFile" : "directory-src.csvwriter-Debug-1ba9ba3980b409ca6a69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/csvwriter",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/filereading",
+					"jsonFile" : "directory-src.filereading-Debug-d58e9b9ed3eadb02d4fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/filereading",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/wordcounter",
+					"jsonFile" : "directory-src.wordcounter-Debug-f49ed95f584ded0e37cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/wordcounter",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "lab0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "csvWriter::@c9fc363795a0fdc4dc6f",
+					"jsonFile" : "target-csvWriter-Debug-ce8b7da388469837f646.json",
+					"name" : "csvWriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fileReading::@f78354738ef22fdcf81b",
+					"jsonFile" : "target-fileReading-Debug-feaa9d6f13537bf4d9be.json",
+					"name" : "fileReading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0-Debug-59e9a8845f5b64210070.json",
+					"name" : "lab0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "wordCounter::@6bf8d468af67fd5fd309",
+					"jsonFile" : "target-wordCounter-Debug-f1bad7de36e786addb3a.json",
+					"name" : "wordCounter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/programming_C++/lab0/lab0b/build",
+		"source" : "C:/programming_C++/lab0/lab0b"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

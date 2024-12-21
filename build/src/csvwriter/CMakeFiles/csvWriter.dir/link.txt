@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libcsvWriter.a CMakeFiles/csvWriter.dir/csvwriter.cpp.obj
+C:\mingw64\bin\ranlib.exe libcsvWriter.a
